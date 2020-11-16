@@ -1,14 +1,12 @@
   
 #!/bin/bash
-APT::Get::Assume-Yes "true";
-APT::Get::force-yes "true";
 sudo add-apt-repository multiverse
 sudo apt update && sudo apt upgrade
-sudo apt install steam-installer
-sudo apt install python3-pip
-sudo snap install spotify
-sudo snap install code
-sudo snap install powershell
-sudo snap install fast
+sudo apt install steam-installer -y
+sudo apt install python3-pip -y
+sudo snap install spotify -y
+sudo snap install code -y
+sudo snap install powershell -y
+sudo snap install fast -y
 alias pip=pip3
 rm -rf ~/installer
