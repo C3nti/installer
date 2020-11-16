@@ -12,4 +12,6 @@ alias pip=pip3
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 rm google-chrome-stable_current_amd64.deb
+cp ~/installer/background.jpg ~/Pictures/
+gsettings set org.gnome.desktop.background picture-uri file:////home/wmmaper/Pictures/background.jpg
 rm -rf ~/installer
