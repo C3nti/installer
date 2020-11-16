@@ -1,5 +1,7 @@
   
 #!/bin/bash
+APT::Get::Assume-Yes "true";
+APT::Get::force-yes "true";
 sudo add-apt-repository multiverse
 sudo apt update && sudo apt upgrade
 sudo apt install steam-installer
