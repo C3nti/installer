@@ -14,4 +14,5 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 rm google-chrome-stable_current_amd64.deb
 cp ~/installer/background.jpg ~/Pictures/
 gsettings set org.gnome.desktop.background picture-uri file:////home/wmmaper/Pictures/background.jpg
+gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita-dark'
 rm -rf ~/installer
