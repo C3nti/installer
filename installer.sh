@@ -20,7 +20,8 @@ sudo apt install gimp -y
 sudo apt install notepadqq -y
 sudo apt install filezilla -y
 sudo snap install spotify
-snap install discord
+sudo snap install discord
+sudo snap install gmail-desktop
 sudo snap install skype --classic
 sudo snap install code --classic
 sudo snap install powershell --classic
