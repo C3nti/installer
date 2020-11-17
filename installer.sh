@@ -1,5 +1,8 @@
   
 #!/bin/bash
+sudo add-apt-repository ppa:videolan/master-daily
+sudo add-apt-repository ppa:eugenesan/ppa
+sudo add-apt-repository ppa:notpadqq-team/notepadqq
 sudo add-apt-repository -y multiverse
 sudo apt update && sudo apt upgrade -y
 sudo apt install curl
@@ -10,7 +13,16 @@ sudo apt install tlp -y
 sudo apt install tp-smapi-dkms -y
 sudo apt install acpi-call-dkms -y
 sudo apt install smartmontools -y
+sudo apt install fwts -y
+sudo apt install laptop-mode-tools -y
+sudo apt install vlc qtwayland5 -y
+sudo apt install caffeine -y
+sudo apt install gimp -y
+sudo apt install notepadqq -y
+sudo apt install filezilla -y
 sudo snap install spotify
+snap install discord
+sudo snap install skype --classic
 sudo snap install code --classic
 sudo snap install powershell --classic
 curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
