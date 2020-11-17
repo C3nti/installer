@@ -1,7 +1,7 @@
   
 #!/bin/bash
 sudo add-apt-repository -y multiverse
-sudo apt update && sudo apt upgrade
+sudo apt update && sudo apt upgrade -y
 sudo apt install curl
 sudo apt install steam-installer -y
 sudo apt install python3-pip -y
