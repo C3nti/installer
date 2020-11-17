@@ -1,8 +1,8 @@
   
 #!/bin/bash
-sudo add-apt-repository ppa:videolan/master-daily
-sudo add-apt-repository ppa:eugenesan/ppa
-sudo add-apt-repository ppa:notpadqq-team/notepadqq
+sudo add-apt-repository -y ppa:videolan/master-daily
+sudo add-apt-repository -y ppa:eugenesan/ppa
+sudo add-apt-repository -y ppa:notpadqq-team/notepadqq
 sudo add-apt-repository -y multiverse
 sudo apt update && sudo apt upgrade -y
 sudo apt install curl
