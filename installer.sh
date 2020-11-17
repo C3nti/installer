@@ -1,7 +1,7 @@
   
 #!/bin/bash
 curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
-echo "deb [arch=amd64] https://packages.microsoft.com/repos/ms-teams stable main" | sudo tee /etc/apt/sources.list.d/teams
+echo "deb [arch=amd64] https://packages.microsoft.com/repos/ms-teams stable main" | sudo tee /etc/apt/sources.list.d/teams.list
 sudo add-apt-repository -y multiverse
 sudo apt update && sudo apt upgrade
 sudo apt install steam-installer -y
