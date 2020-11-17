@@ -1,10 +1,13 @@
   
 #!/bin/bash
+curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+echo "deb [arch=amd64] https://packages.microsoft.com/repos/ms-teams stable main" | sudo tee /etc/apt/sources.list.d/teams.
 sudo add-apt-repository -y multiverse
 sudo apt update && sudo apt upgrade
 sudo apt install steam-installer -y
 sudo apt install python3-pip -y
 sudo apt install speedtest-cli -y
+sudo apt install teams
 sudo snap install spotify
 sudo snap install code --classic
 sudo snap install powershell --classic
