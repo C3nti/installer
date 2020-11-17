@@ -6,6 +6,10 @@ sudo apt install curl
 sudo apt install steam-installer -y
 sudo apt install python3-pip -y
 sudo apt install speedtest-cli -y
+sudo apt install tlp -y
+sudo apt install tp-smapi-dkms -y
+sudo apt install acpi-call-dkms -y
+sudo apt install smartmontools -y
 sudo snap install spotify
 sudo snap install code --classic
 sudo snap install powershell --classic
