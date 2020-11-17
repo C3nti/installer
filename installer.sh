@@ -2,7 +2,6 @@
 #!/bin/bash
 sudo add-apt-repository -y ppa:videolan/master-daily
 sudo add-apt-repository -y ppa:eugenesan/ppa
-sudo add-apt-repository -y ppa:notpadqq-team/notepadqq
 sudo add-apt-repository -y multiverse
 sudo apt update && sudo apt upgrade -y
 sudo apt install curl
@@ -36,3 +35,4 @@ cp ~/installer/background.jpg ~/Pictures/
 gsettings set org.gnome.desktop.background picture-uri file:////home/wmmaper/Pictures/background.jpg
 gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita-dark'
 rm -rf ~/installer
+sudo apt autoremove -y
