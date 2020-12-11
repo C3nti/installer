@@ -1,10 +1,12 @@
   
 #!/bin/bash
+sudo rm /etc/apt/preferences.d/nosnap.pref #Linux Mint does not allow snap. This will remove the block. 
 sudo add-apt-repository -y ppa:videolan/master-daily
 sudo add-apt-repository -y ppa:eugenesan/ppa
 sudo add-apt-repository -y multiverse
 sudo apt update && sudo apt upgrade -y
-sudo apt install curl
+sudo apt install snapd -y #cause mint does not like snap.
+sudo apt install curl -y
 sudo apt install steam-installer -y
 sudo apt install python3-pip -y
 sudo apt install speedtest-cli -y
